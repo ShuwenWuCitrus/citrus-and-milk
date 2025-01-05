@@ -101,7 +101,9 @@ theme: polarbear
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ""
+  type: git
+  repo: https://github.com/ShuwenWuCitrus/citrus-and-milk.git
+  branch: gh-pages
 
 archive_generator:
   per_page: 0
